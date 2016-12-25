@@ -117,6 +117,7 @@ img {
 
 .date {
   font-style: italic;
+  text-align: left;
   color: $gray;
 }
 
@@ -281,6 +282,30 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+// for tag cloud and archives
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+  font-size: 16px;
+  li {
+    display: inline-block;
+    margin: 0 12px 12px 0;
+  }
+}
+#archives {
+  padding: 5px;
+}
+.archive-group {
+  margin: 5px;
+  border-top: 1px solid #ddd;
+}
+.archive-item {
+  margin-left: 5px;
+}
+.post-tags {
+  text-align: right;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
