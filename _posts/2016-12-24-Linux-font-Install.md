@@ -5,7 +5,7 @@ tags:
 - RaspberryPi
 - Linux
 - font
-- 설정
+- 설치
 ---
 
 ## 개요
