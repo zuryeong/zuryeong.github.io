@@ -17,6 +17,13 @@ RaspberryPi를 TV에 연결해서 애니를 보고 있다. 일반적으로 smi �
 ```bash
 sudo apt-get install font-manager
 ```
+먼저 설치된 폰트목록을 `fc-list` 명령으로 조회해 본다.
+
+![추가 전 목록](https://dl.dropboxusercontent.com/u/14359304/Blog%20Images/Linux-font-Install_%EC%B6%94%EA%B0%80%20%EC%A0%84%20%EB%AA%A9%EB%A1%9D.png)
+
+그리고, 테스트용 영상을 틀어 본다.
+
+![추가 전 영상]()
 
 system에서 관리하는 폰트 디렉토리[^font_dictory][^font_dictory2]로 설치할 폰트를 옮긴다.
 시스템 디렉토리 이므로 루트 권한을 주거나 `sudo` 명령어를 사용한다.
@@ -38,9 +45,11 @@ fc-cache -fv
 fc-list
 ```
 
-![fc-list 결과]()
+![추가 후 목록](https://dl.dropboxusercontent.com/u/14359304/Blog%20Images/Linux-font-Install_%EC%B6%94%EA%B0%80%20%ED%9B%84%20%EB%AA%A9%EB%A1%9D.png)
+
 이제 ass 자막에 폰트가 적용 됐는지 확인한다.
-![영상 재생 결과]()
+
+![추가 후 영상]()
 
 
 ---
