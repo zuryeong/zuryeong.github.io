@@ -30,6 +30,4 @@ RaspberryPi에서 Plex Media Server를 사용하기 위해서 처음에는 RasPl
 
 * 참조 : <https://pimylifeup.com/raspberry-pi-plex-server/>
 
-
-
  [^sudo]: Minibian에 `sudo` 패키지가 설치되어 있지 않아서, `sudo` 명령이 안먹힌다.
