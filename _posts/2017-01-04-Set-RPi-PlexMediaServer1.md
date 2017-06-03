@@ -7,7 +7,6 @@ tags:
 - PlexMediaServer
 - 설치
 ---
-# RaspberryPi B+ Plex Media Server 설치기
 
 ## 개요
 

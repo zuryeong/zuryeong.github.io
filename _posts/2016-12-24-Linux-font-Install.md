@@ -9,14 +9,17 @@ tags:
 ---
 
 ## 개요
+
 RaspberryPi를 TV에 연결해서 애니를 보고 있다. 일반적으로 smi 자막으로 볼 때는 딱히 문제가 없었는데, ass 자막을 이용하려면 자막 제작자가 제공하는 폰트를 설치 해야 했다. 윈도우 환경에서는 폰트 파일을 실행하기만 하면 바로 설치가 가능했다. 하지만 리눅스 환경에서 SSH를 통한 원격 접속으로 폰트를 설치 하는데는 그 방법은 쓸 수 없다.
 
 ## 폰트 설치
+
 폰트를 설치하기 위해서는 font-manager[^font-manager] 패키지가 필요하다. 아래 명령을 통해 font-manager를 설치하자.
 
 ```bash
 sudo apt-get install font-manager
 ```
+
 먼저 설치된 폰트목록을 `fc-list` 명령으로 조회해 본다.
 
 ![추가 전 목록](https://dl.dropboxusercontent.com/u/14359304/Blog%20Images/Linux-font-Install_%EC%B6%94%EA%B0%80%20%EC%A0%84%20%EB%AA%A9%EB%A1%9D.png)
@@ -39,6 +42,7 @@ fc-cache -fv
 ```
 
 ## 확인
+
 적용이 끝나면, 폰트가 추가 되었는지 확인 한다.
 
 ```bash
